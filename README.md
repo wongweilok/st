@@ -22,7 +22,7 @@ Install [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/) to preven
 ## Installation
 
 ```
-$ git clone https://github.com/Wayloque/st.git
+$ git clone https://github.com/wongweilok/st.git
 $ cd st
 $ sudo make clean install
 ```
