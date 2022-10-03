@@ -9,7 +9,7 @@ static char *font = "monospace:pixelsize=16:antialias=true:autohint=true";
 
 /* Fallback fonts */
 static char *font2[] = {
-	"JoyPixels:pixelsize=14:antialias=true:autohint=true",
+	"NotoColorEmoji:pixelsize=16:antialias=true:autohint=true",
 	"Inconsolata Nerd Font:pixelsize=16:antialias=true:autohint=true"
 };
 static int borderpx = 2;
