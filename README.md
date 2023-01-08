@@ -15,10 +15,6 @@ Below are patches that I added into my st build.
 * [scrollback](https://st.suckless.org/patches/scrollback/): Scroll back through previous terminal output
 * [vertcenter](https://st.suckless.org/patches/vertcenter/): Vertically center lines
 
-## Requirements
-
-Install [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/) to prevent color emoji / font rendering issues.
-
 ## Installation
 
 ```
