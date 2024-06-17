@@ -8,7 +8,7 @@
 static char *font = "monospace:pixelsize=16:antialias=true:autohint=true";
 
 /* Fallback fonts */
-static char *font2[] = { "NotoColorEmoji:pixelsize=16:antialias=true:autohint=true" };
+static char *font2[] = { "Symbols Nerd Font:pixelsize=16:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -109,7 +109,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.95;
+float alpha = 0.9;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -200,6 +200,8 @@ static MouseShortcut mshortcuts[] = {
 #define MODKEY Mod1Mask
 #define TERMMOD (Mod1Mask|ShiftMask)
 
+static char *openurlcmd[] = { "/bin/sh", "-c", "linkgrabber", "externalpipe", NULL };
+
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
 	{ XK_ANY_MOD,           XK_Break,       sendbreak,      {.i =  0} },
@@ -219,6 +221,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,            	XK_j,   	kscrolldown,    {.i =  1} },
 	{ TERMMOD,              XK_K,           zoom,           {.f = +1} },
 	{ TERMMOD,              XK_J,           zoom,           {.f = -1} },
+	{ MODKEY,		XK_o,		externalpipe,	{.v = openurlcmd} },
 };
 
 /*
