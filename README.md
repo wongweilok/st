@@ -15,6 +15,7 @@ Below are patches that I added into my st build.
 * [font2](https://st.suckless.org/patches/font2/): For adding fallback fonts; (Latest ver: [0.8.5](https://st.suckless.org/patches/font2/st-font2-0.8.5.diff))
 * [scrollback](https://st.suckless.org/patches/scrollback/): Scroll back through previous terminal output; (Latest ver: [0.8.5](https://st.suckless.org/patches/scrollback/st-scrollback-0.8.5.diff))
 * [vertcenter](https://st.suckless.org/patches/vertcenter/): Vertically center lines; (Latest ver: [20231003](https://st.suckless.org/patches/vertcenter/st-vertcenter-20231003-eb3b894.diff))
+* [glyph wide support](https://st.suckless.org/patches/glyph_wide_support/): Fix unicode being chopped, mostly for nerd font symbols; (Latest ver: [20220411](https://st.suckless.org/patches/glyph_wide_support/st-glyph-wide-support-boxdraw-20220411-ef05519.diff))
 
 ## Installation
 
