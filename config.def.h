@@ -8,7 +8,7 @@
 static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
 
 /* Fallback fonts */
-static char *font2[] = { "Symbols Nerd Font:pixelsize=14:antialias=true:autohint=true" };
+static char *font2[] = { "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
