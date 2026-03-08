@@ -9,7 +9,7 @@ static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
 
 /* Fallback fonts */
 static char *font2[] = { "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true" };
-static int borderpx = 2;
+static int borderpx = 8;
 
 /*
  * What program is execed by st depends of these precedence rules:
